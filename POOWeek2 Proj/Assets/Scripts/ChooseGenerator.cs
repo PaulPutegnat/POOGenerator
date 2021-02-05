@@ -14,38 +14,38 @@ public class ChooseGenerator : MonoBehaviour
             if (choice == 1)
             {
                 Character currentCharacter = new Warlock();
-                Debug.Log(currentCharacter.getCharacterInfo.nom);
-                Debug.Log(currentCharacter.getCharacterInfo.vie);
+                Debug.Log(currentCharacter.GetCharacterInfo.nom);
+                Debug.Log(currentCharacter.GetCharacterInfo.vie);
             }
             if (choice == 2)
             {
                 Character currentCharacter = new Archer();
-                Debug.Log(currentCharacter.getCharacterInfo.nom);
-                Debug.Log(currentCharacter.getCharacterInfo.vie);
+                Debug.Log(currentCharacter.GetCharacterInfo.nom);
+                Debug.Log(currentCharacter.GetCharacterInfo.vie);
             }
             if (choice == 3)
             {
                Character currentCharacter = new Knight();
-               Debug.Log(currentCharacter.getCharacterInfo.nom);
-               Debug.Log(currentCharacter.getCharacterInfo.vie);
+                Debug.Log(currentCharacter.GetCharacterInfo.nom);
+                Debug.Log(currentCharacter.GetCharacterInfo.vie);
             }
             if (choice == 4)
             {
                 Character currentCharacter = new Goblin();
-                Debug.Log(currentCharacter.getCharacterInfo.nom);
-                Debug.Log(currentCharacter.getCharacterInfo.vie);
+                Debug.Log(currentCharacter.GetCharacterInfo.nom);
+                Debug.Log(currentCharacter.GetCharacterInfo.vie);
             }
             if (choice == 5)
             {
                 Character currentCharacter = new Orc();
-                Debug.Log(currentCharacter.getCharacterInfo.nom);
-                Debug.Log(currentCharacter.getCharacterInfo.vie);
+                Debug.Log(currentCharacter.GetCharacterInfo.nom);
+                Debug.Log(currentCharacter.GetCharacterInfo.vie);
             }
             if (choice == 6)
             {
                 Character currentCharacter = new Troll();
-                Debug.Log(currentCharacter.getCharacterInfo.nom);
-                Debug.Log(currentCharacter.getCharacterInfo.vie);
+                Debug.Log(currentCharacter.GetCharacterInfo.nom);
+                Debug.Log(currentCharacter.GetCharacterInfo.vie);
             }
         }
     }
