@@ -6,6 +6,6 @@ class Chestplate : Armor
 {
     public Chestplate() : base()
     {
-        EquipmentStructInfo = new StatEquipment("Daedric Armor", 50, 25, 300);
+        EquipmentStructInfo = new StatEquipment("Armure : Daedric Armor", 50, 25, 300);
     }
 }

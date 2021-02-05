@@ -6,6 +6,6 @@ class Dagger : Weapon
 {
     public Dagger() : base()
     {
-        EquipmentStructInfo = new StatEquipment("Poisonous Dagger", 150, 100, 0);
+        EquipmentStructInfo = new StatEquipment("Arme : Poisonous Dagger", 150, 100, 0);
     }
 }

@@ -6,6 +6,6 @@ class Troll : Enemy
 {
     public Troll() : base()
     {
-        CharacterStructInfo = new StatCharacter("Buraat", 500, 200, 50);
+        CharacterStructInfo = new StatCharacter("Enemy : Buraat", 500, 200, 50);
     }
 }

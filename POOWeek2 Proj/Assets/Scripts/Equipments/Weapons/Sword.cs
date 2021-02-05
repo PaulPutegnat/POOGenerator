@@ -6,6 +6,6 @@ class Sword : Weapon
 {
     public Sword() : base()
     {
-        EquipmentStructInfo = new StatEquipment("Master Sword", 150, 100, 50);
+        EquipmentStructInfo = new StatEquipment("Arme : Master Sword", 150, 100, 50);
     }
 }
