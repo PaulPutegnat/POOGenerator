@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class GameObject : MonoBehaviour
 {
+    public Character cryText = new Character();
+    public Character cryEnemy = new Enemy();
+    public Character cryHero = new Hero();
     void Start()
     {
-        Character currentCharacter = new Warlock();
+        cryHero.cryText = "Pour l'alliance!";
+        cryEnemy.cryText = "Pour la Horde!";
+        Character currentCharacter = new Orc();
         Equipment currentEquipment = new Staff();
-        Debug.Log(currentCharacter.getCharacterInfo.nom);
-        Debug.Log(currentCharacter.getCharacterInfo.vie);
+        Debug.Log(currentCharacter.GetCharacterInfo.nom);
+        Debug.Log(currentCharacter.GetCharacterInfo.vie);
         Debug.Log(currentEquipment.getEquipmentInfo.nom);
-        Debug.Log(currentEquipment.getEquipmentInfo.physical_attack);
+        cryText.BattleCry();
+        cryEnemy.BattleCry();
+        cryHero.BattleCry();
     }
 }
