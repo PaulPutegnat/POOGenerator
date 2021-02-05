@@ -6,6 +6,6 @@ class Knight : Hero
 {
     public Knight() : base()
     {
-        CharacterStructInfo = new StatCharacter("Hajax", 250, 125, 100);
+        CharacterStructInfo = new StatCharacter("Hero : Hajax", 250, 125, 100);
     }
 }

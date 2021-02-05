@@ -6,6 +6,6 @@ class Staff : Weapon
 {
     public Staff() : base()
     {
-        EquipmentStructInfo = new StatEquipment("Necromancer Staff", 25, 200, 75);
+        EquipmentStructInfo = new StatEquipment("Arme : Necromancer Staff", 25, 200, 75);
     }
 }

@@ -6,6 +6,6 @@ class Goblin : Enemy
 {
     public Goblin() : base()
     {
-        CharacterStructInfo = new StatCharacter("Farrath", 150, 50, 75);
+        CharacterStructInfo = new StatCharacter("Enemy : Farrath", 150, 50, 75);
     }
 }

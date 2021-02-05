@@ -6,6 +6,6 @@ class Orc : Enemy
 {
     public Orc() : base()
     {
-        CharacterStructInfo = new StatCharacter("Kthuluh", 300, 100, 25);
+        CharacterStructInfo = new StatCharacter("Enemy : Kthuluh", 300, 100, 25);
     }
 }

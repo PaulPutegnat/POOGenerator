@@ -6,6 +6,6 @@ class Archer : Hero
 {
     public Archer() : base()
     {
-        CharacterStructInfo = new StatCharacter("Legolas", 150, 75, 125);
+        CharacterStructInfo = new StatCharacter("Hero : Legolas", 150, 75, 125);
     }
 }

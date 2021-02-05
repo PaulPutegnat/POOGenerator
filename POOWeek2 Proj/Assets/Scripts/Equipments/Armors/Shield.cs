@@ -6,6 +6,6 @@ class Shield : Armor
 {
     public Shield() : base()
     {
-        EquipmentStructInfo = new StatEquipment("Spike Shield", 150, 25, 200);
+        EquipmentStructInfo = new StatEquipment("Armure : Spike Shield", 150, 25, 200);
     }
 }

@@ -6,6 +6,6 @@ class Mantle : Armor
 {
     public Mantle() : base()
     {
-        EquipmentStructInfo = new StatEquipment("Phoenix Robe", 0, 25, 200);
+        EquipmentStructInfo = new StatEquipment("Armure : Phoenix Robe", 0, 25, 200);
     }
 }
