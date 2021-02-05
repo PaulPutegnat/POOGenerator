@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class Character 
 {
+    public string cryText = "A l'attaque";
     protected StatCharacter CharacterStructInfo;
-    public Character()
-    {
+    public Character() {}
 
+    public virtual void BattleCry()
+    {
+        Debug.Log(cryText);
     }
 
-    public StatCharacter getCharacterInfo
+    public StatCharacter GetCharacterInfo
     {
         get { return CharacterStructInfo; }
     }

@@ -4,6 +4,10 @@ using UnityEngine;
 
 class Hero : Character
 {
+    public override void BattleCry()
+    {
+        base.BattleCry();
+    }
     public Hero() : base()
     {
 
