@@ -18,34 +18,22 @@ public class Inventory : MonoBehaviour {
 	public delegate void OnItemChanged();
 	public OnItemChanged onItemChangedCallback;
 
-	public int space = 10;	// Amount of item spaces
-
-	// Our current list of items in the inventory
+	public List<Character> persos = new List<Character>();
 	public List<Equipment> items = new List<Equipment>();
 
-	// Add a new item if enough room
-	public void Add (Equipment item)
+	public void AddEquip (Equipment item)
 	{
-		//if (item.showInInventory) {
-			if (items.Count >= space) {
-				Debug.Log ("Not enough room.");
-				return;
-			}
-
-			items.Add (item);
-
-			if (onItemChangedCallback != null)
-				onItemChangedCallback.Invoke ();
-		}
-	//}
-
-	// Remove an item
-	public void Remove (Equipment item)
-	{
-		items.Remove(item);
+		items.Add (item);
 
 		if (onItemChangedCallback != null)
-			onItemChangedCallback.Invoke();
+		onItemChangedCallback.Invoke ();
 	}
 
+	public void AddPerso (Character perso)
+	{
+		persos.Add(perso);
+
+		if (onItemChangedCallback != null) 
+			onItemChangedCallback.Invoke();
+	}
 }

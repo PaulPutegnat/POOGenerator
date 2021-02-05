@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.EventSystems;
 
 public class ChooseGenerator : MonoBehaviour
 {
@@ -18,6 +20,8 @@ public class ChooseGenerator : MonoBehaviour
                 Debug.Log("Vie: " + currentCharacter.GetCharacterInfo.vie);
                 Debug.Log("Défense: " + currentCharacter.GetCharacterInfo.defense);
                 Debug.Log("Attaque: " + currentCharacter.GetCharacterInfo.attack);
+                InventorySlot AddCharac(Character Warlock);
+                Inventory AddPerso(Character Warlock);
             }
             if (choice == 2)
             {
@@ -26,6 +30,8 @@ public class ChooseGenerator : MonoBehaviour
                 Debug.Log("Vie: " + currentCharacter.GetCharacterInfo.vie);
                 Debug.Log("Défense: " + currentCharacter.GetCharacterInfo.defense);
                 Debug.Log("Attaque: " + currentCharacter.GetCharacterInfo.attack);
+                InventorySlot AddCharac(Character Archer);
+                Inventory AddPerso(Character Archer);
             }
             if (choice == 3)
             {
@@ -34,6 +40,8 @@ public class ChooseGenerator : MonoBehaviour
                 Debug.Log("Vie: " + currentCharacter.GetCharacterInfo.vie);
                 Debug.Log("Défense: " + currentCharacter.GetCharacterInfo.defense);
                 Debug.Log("Attaque: " + currentCharacter.GetCharacterInfo.attack);
+                InventorySlot AddCharac(Character Knight);
+                Inventory AddPerso(Character Knight);
             }
             if (choice == 4)
             {
@@ -42,6 +50,8 @@ public class ChooseGenerator : MonoBehaviour
                 Debug.Log("Vie: " + currentCharacter.GetCharacterInfo.vie);
                 Debug.Log("Défense: " + currentCharacter.GetCharacterInfo.defense);
                 Debug.Log("Attaque: " + currentCharacter.GetCharacterInfo.attack);
+                InventorySlot AddCharac(Character Goblin);
+                Inventory AddPerso(Character Goblin);
             }
             if (choice == 5)
             {
@@ -50,6 +60,8 @@ public class ChooseGenerator : MonoBehaviour
                 Debug.Log("Vie: " + currentCharacter.GetCharacterInfo.vie);
                 Debug.Log("Défense: " + currentCharacter.GetCharacterInfo.defense);
                 Debug.Log("Attaque: " + currentCharacter.GetCharacterInfo.attack);
+                InventorySlot AddCharac(Character Orc);
+                Inventory AddPerso(Character Orc);
             }
             if (choice == 6)
             {
@@ -58,6 +70,8 @@ public class ChooseGenerator : MonoBehaviour
                 Debug.Log("Vie: " + currentCharacter.GetCharacterInfo.vie);
                 Debug.Log("Défense: " + currentCharacter.GetCharacterInfo.defense);
                 Debug.Log("Attaque: " + currentCharacter.GetCharacterInfo.attack);
+                InventorySlot AddCharac(Character Troll);
+                Inventory AddPerso(Character Troll);
             }
         }
     }
@@ -75,6 +89,8 @@ public class ChooseGenerator : MonoBehaviour
                 Debug.Log("Attaque physique :" + currentEquipment.getEquipmentInfo.physical_attack);
                 Debug.Log("Attaque magique :" + currentEquipment.getEquipmentInfo.magic_attack);
                 Debug.Log("Défense :" + currentEquipment.getEquipmentInfo.defense);
+                InventorySlot AddItem(Equipment Staff);
+                Inventory AddItem(Equipment Staff);
             }
             if (choice == 2)
             {
@@ -83,6 +99,8 @@ public class ChooseGenerator : MonoBehaviour
                 Debug.Log("Attaque physique :" + currentEquipment.getEquipmentInfo.physical_attack);
                 Debug.Log("Attaque magique :" + currentEquipment.getEquipmentInfo.magic_attack);
                 Debug.Log("Défense :" + currentEquipment.getEquipmentInfo.defense);
+                InventorySlot AddItem(Equipment Dagger);
+                Inventory AddItem(Equipment Dagger);
             }
             if (choice == 3)
             {
@@ -91,6 +109,8 @@ public class ChooseGenerator : MonoBehaviour
                 Debug.Log("Attaque physique :" + currentEquipment.getEquipmentInfo.physical_attack);
                 Debug.Log("Attaque magique :" + currentEquipment.getEquipmentInfo.magic_attack);
                 Debug.Log("Défense :" + currentEquipment.getEquipmentInfo.defense);
+                InventorySlot AddItem(Equipment Sword);
+                Inventory AddItem(Equipment Sword);
             }
             if (choice == 4)
             {
@@ -99,6 +119,8 @@ public class ChooseGenerator : MonoBehaviour
                 Debug.Log("Attaque physique :" + currentEquipment.getEquipmentInfo.physical_attack);
                 Debug.Log("Attaque magique :" + currentEquipment.getEquipmentInfo.magic_attack);
                 Debug.Log("Défense :" + currentEquipment.getEquipmentInfo.defense);
+                InventorySlot AddItem(Equipment Chestplate);
+                Inventory AddItem(Equipment Chestplate);
             }
             if (choice == 5)
             {
@@ -107,6 +129,8 @@ public class ChooseGenerator : MonoBehaviour
                 Debug.Log("Attaque physique :" + currentEquipment.getEquipmentInfo.physical_attack);
                 Debug.Log("Attaque magique :" + currentEquipment.getEquipmentInfo.magic_attack);
                 Debug.Log("Défense :" + currentEquipment.getEquipmentInfo.defense);
+                InventorySlot AddItem(Equipment Mantle);
+                Inventory AddItem(Equipment Mantle);
             }
             if (choice == 6)
             {
@@ -115,6 +139,8 @@ public class ChooseGenerator : MonoBehaviour
                 Debug.Log("Attaque physique :" + currentEquipment.getEquipmentInfo.physical_attack);
                 Debug.Log("Attaque magique :" + currentEquipment.getEquipmentInfo.magic_attack);
                 Debug.Log("Défense :" + currentEquipment.getEquipmentInfo.defense);
+                InventorySlot AddItem(Equipment Shield);
+                Inventory AddItem(Equipment Shield);
             }
         }
     }
